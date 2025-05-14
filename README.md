@@ -13,7 +13,7 @@
 2. npm install
 3. php artisan serve
 4. php artisan migrate:fresh
-5. copy .env-example to .env and change db settings to your needs 
+5. copy .env.example to .env and change db settings to your needs 
 6. db settings example
 ``` 
 DB_CONNECTION=mysql
@@ -30,7 +30,25 @@ DB_PASSWORD=root
 11. Create your first post
 12. Finished 🚀
 
+## Screenshots
+### Signup
+![Signup](/screenshots/signup.png)
+
+### Signin
+![Signin](/screenshots/signin.png)
+
+### Empty-View
+![Empty-View](/screenshots/index-empty-view.png)
+
+### Index-View
+![Index-View](/screenshots/index-view.png)
+
+### Detail-View
+![Index-View](/screenshots/detail-view.png)
+
+
 ## About Laravel
+
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
 
