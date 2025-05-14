@@ -10,11 +10,10 @@
 
 ## Getting started
 1. composer install
-2. npm install
-3. php artisan serve
-4. php artisan migrate:fresh
-5. copy .env.example to .env and change db settings to your needs 
-6. db settings example
+2. npm install 
+3. copy `.env.example` to `.env` and change db settings to your needs
+
+.env
 ``` 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -23,12 +22,14 @@ DB_DATABASE=laravel-demo
 DB_USERNAME=root
 DB_PASSWORD=root
 ```
-7. php artisan key:generate
-8. npm run dev 
-9. open http://127.0.0.1:8000 in browser
-10. Register a new account
-11. Create your first post
-12. Finished 🚀
+4. php artisan migrate:fresh 
+5. php artisan key:generate
+6. php artisan serve
+7. npm run dev 
+8. open http://127.0.0.1:8000 in browser 9
+9. Register a new account
+10. Create your first post
+11. Finished 🚀
 
 ## Screenshots
 ### Signup
