@@ -7,6 +7,29 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+
+## Getting started
+1. composer install
+2. npm install
+3. php artisan serve
+4. php artisan migrate:fresh
+5. copy .env-example to .env and change db settings to your needs 
+6. db settings example
+``` 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=laravel-demo
+DB_USERNAME=root
+DB_PASSWORD=root
+```
+7. php artisan key:generate
+8. npm run dev 
+9. open http://127.0.0.1:8000 in browser
+10. Register a new account
+11. Create your first post
+12. Finished 🚀
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
