@@ -11,6 +11,7 @@
     @endif
 
     <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ asset('images/logos/favicon.svg') }}">
     <link rel="shortcut icon" href="{{ url(asset('favicon.ico')) }}">
 
     <!-- Fonts -->

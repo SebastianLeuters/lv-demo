@@ -34,11 +34,11 @@
             <!-- Logo -->
             <a
                 class="mb-4 me-5 ms-2 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:mb-0 lg:mt-0"
-                href="#">
+                href="{{ url('/') }}">
                 <img
-                    src="https://tecdn.b-cdn.net/img/logo/te-transparent-noshadows.webp"
-                    style="height: 15px"
-                    alt="TE Logo"
+                    src="{{ asset('images/logos/logo.svg') }}"
+                    class="h-8"
+                    alt="{{ config('app.name') }} Logo"
                     loading="lazy"/>
             </a>
             <!-- Left navigation links -->
